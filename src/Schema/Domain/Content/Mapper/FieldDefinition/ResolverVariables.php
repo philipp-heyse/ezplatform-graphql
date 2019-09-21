@@ -44,7 +44,7 @@ class ResolverVariables implements FieldDefinitionMapper
             ],
             [
                 'value',
-                'resolver("DomainFieldValue", [value, "' . $fieldDefinition->identifier . '"])',
+                'resolver("DomainFieldValue", [value, "' . $fieldDefinition->identifier . '", args])',
             ],
             $resolver
         );
