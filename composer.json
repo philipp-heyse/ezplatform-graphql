@@ -55,7 +55,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.1.x-dev"
+            "dev-master": "2.1.x-dev",
+            "dev-bugfix-image-variations-v2": "2.1.x-dev"
         }
     },
     "scripts": {
